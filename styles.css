@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  background-image: url("https://themisfitscloset.files.wordpress.com/2016/01/o-book-coffee-facebook.jpg?w=1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Open Sans; }
+  body .box {
+    margin-top: 100px;
+    padding-bottom: 40px; }
+    body .box .quote {
+      padding-top: 20px;
+      font-size: 18px;
+      font-weight: bold; }
+    body .box .author {
+      padding-right: 15px;
+      padding-bottom: 15px;
+      font-size: 14px; }
+    body .box button,
+    body .box #button1 {
+      line-height: 30px;
+      background-color: #3d969e;
+      color: white; }
+    body .box #btnTweet {
+      background-color: #50abf1;
+      margin-top: 20px; }
