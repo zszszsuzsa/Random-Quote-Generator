@@ -1,12 +1,13 @@
 body {
   height: 100vh;
-  background-image: url("https://themisfitscloset.files.wordpress.com/2016/01/o-book-coffee-facebook.jpg?w=1200");
+  background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Open Sans; }
   body .box {
-    margin-top: 100px;
-    padding-bottom: 40px; }
+    margin-top: 70px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.4); }
     body .box .quote {
       padding-top: 20px;
       font-size: 18px;
@@ -15,11 +16,13 @@ body {
       padding-right: 15px;
       padding-bottom: 15px;
       font-size: 14px; }
-    body .box button,
-    body .box #button1 {
+    body .box button {
+      border-radius: 10px;
+      border: 0px;
       line-height: 30px;
-      background-color: #3d969e;
       color: white; }
+    body .box #btnQuote {
+      background-color: #3d969e; }
     body .box #btnTweet {
       background-color: #50abf1;
       margin-top: 20px; }
