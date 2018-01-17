@@ -1,7 +1,6 @@
 // Creating an object that will contain all of the functions
 var app = {};
 
-<<<<<<< HEAD
 
 app.giveMeAQuote = function () {
 	// Requesting data from the url below 
@@ -10,16 +9,6 @@ app.giveMeAQuote = function () {
 
 		// Filling the html paragraphs with data
 		function (data) {
-=======
-// Requesting data from the url below 
-$.get(
-	"https://random-quote-generator.herokuapp.com/api/quotes/random",
-
-	function (data) {
-
-		// Filling the html paragraphs with data
-		app.giveMeAQuote = function () {
->>>>>>> 021faa1fd8fd448b5c4f2a3fdb822de36521ff7c
 			// Frist emptying the quote paragraph as later this function will be used for asking for a new quote. 
 			$(".quote")
 				.empty()
@@ -28,13 +17,8 @@ $.get(
 				.empty()
 				.append(data["author"]);
 		}
-<<<<<<< HEAD
 	);
 }
-=======
-	}
-);
->>>>>>> 021faa1fd8fd448b5c4f2a3fdb822de36521ff7c
 
 // This function allows the user to tweet out the current quote. If the quote is longer the character limit of Twitter the function throws an alert
 app.tweet = function () {
